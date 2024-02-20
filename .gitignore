@@ -1,0 +1,5 @@
+*.app
+.vscode
+.alcache
+.alpackages
+.snapshots\*.zip

@@ -1,0 +1,39 @@
+{
+  "id": "99804cec-af58-4d62-ae15-5acc1cd04ccd",
+  "name": "Convert To SharePoint",
+  "publisher": "hougaard.com",
+  "version": "5.0.0.100",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "23ebd065-b289-4a68-85e3-b8410e360157",
+      "name": "SharePoint Connector",
+      "publisher": "hougaard.com",
+      "version": "5.0.0.260"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 92300,
+      "to": 92399
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
