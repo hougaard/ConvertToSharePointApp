@@ -43,7 +43,14 @@ report 92301 "Tranfer Incoming Documents"
             end;
         }
     }
+    trigger OnPreReport()
+    begin
+        SP.GetAccessTokenAgain(Token);
+        Sp.StoreAccessToken(Token);
+    end;
+
     var
+        Token: Text;
         Mapping: Record "Table Mapping EFQ";
         TempBlob: Codeunit "Temp Blob";
         SP: Codeunit "SharePoint EFQ";
