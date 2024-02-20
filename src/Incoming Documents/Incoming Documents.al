@@ -3,6 +3,7 @@ report 92301 "Tranfer Incoming Documents"
     ProcessingOnly = true;
     Caption = 'Transfer Incoming Documents to SharePoint (Custom)';
     UsageCategory = Administration;
+    ApplicationArea = all;
     dataset
     {
         dataitem(IncomingDocument; "Incoming Document")

@@ -3,6 +3,7 @@ report 92300 "Transfer Attachments"
     ProcessingOnly = true;
     Caption = 'Transfer Attachments to SharePoint (Custom)';
     UsageCategory = Administration;
+    ApplicationArea = all;
     dataset
     {
         dataitem("Document Attachment"; "Document Attachment")
